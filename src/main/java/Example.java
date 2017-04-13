@@ -16,7 +16,7 @@ public class Example {
         //return "Hello World!";
         //return System.getenv("TEST");
         try {
-		return InetAddress.getLocalHost().toString();
+		return InetAddress.getLocalHost().toString() + "hello world";
 	} catch(Exception e)
 	{
 		return "Fail to get localhost!";
